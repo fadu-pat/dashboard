@@ -38,6 +38,7 @@ class App extends Component{
 	}
 	
 	closeModal = () =>{
+		console.log("Aaa");
 		this.setState({isModalOpen : false});
 	}
 	
